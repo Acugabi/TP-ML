@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --default-padding: 0px;
+    --default-margin: 0px;
+}
+
+body{
+    background-color: #ebebeb;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+
+header {
+    background-color: #EAC926;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0; 
+    overflow: auto;
+}
+
+.logoMl {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 50vw;
+    justify-content: center;
+
+}
+
+.busqueda {
+    display: flex;
+    align-items: center;
+    width: 50vw;
+    left: 53%;
+    margin-right: 3%;
+}
+
+.form-control {
+    width: 100%;
+}
+
+.iconoBuscar {
+    background-color: white;
+    border-radius: 4px;
+    border: solid thin;
+}
+
+#menu { 
+    padding: 10px;
+    margin: 20px 0px;
+    display: block;
+    position: relative;
+    margin-left: 42vw;
+    margin-right: 42vw;
+
+
+}
+
+
+#buttonMenu {
+    background-color: #0044AA;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+main {
+    
+}
+
+.homeBanner {
+    width: 100%;
+    display: block;
+}
+
+
+
+ #ofertas {
+    font-size: 24px;
+    text-align: center;
+    width: 90%;
+    color: #666;
+    margin: 20px 0px;
+}
+
+.productos {
+    background-color: white;
+    padding: 15px;
+    margin: 20px 0px;
+    overflow: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.imagen {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    align-self: center;
+}
+
+
+.precios {
+    padding: 5px;
+    font-size: 18px;
+    align-self: center;
+
+}
+
+.descuentos{
+    color: #39b54a;
+    padding: 5px;
+    font-size: 16px;
+    align-self: center;
+}
+
+.nombreProducto {
+    padding: 5px;
+    font-size: 16px;
+    width: 100%;
+    color: #666;
+}
+
+p {
+    font-size: 12px;
+    text-align: justify;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+footer {
+    text-align: center;
+    background-color: white;
+    color: #666;
+    padding: 20px 5%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer {
+    margin: 20px 0px;
+}
+
+.copyright {
+    font-size: x-small;
+    text-align: center;
+}
+
