@@ -1,0 +1,70 @@
+
+
+
+body{
+    background-color: #ebebeb;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+ #ofertas {
+    font-size: 24px;
+    text-align: center;
+    width: 90%;
+    color: #666;
+    margin: 20px 0px;
+}
+
+.productos {
+    background-color: white;
+    padding: 15px;
+    margin: 20px 0px;
+    overflow: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.imagen {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    align-self: center;
+}
+
+
+.precios {
+    padding: 5px;
+    font-size: 18px;
+    align-self: center;
+
+}
+
+.descuentos{
+    color: #39b54a;
+    padding: 5px;
+    font-size: 16px;
+    align-self: center;
+}
+
+.nombreProducto {
+    padding: 5px;
+    font-size: 16px;
+    width: 100%;
+    color: #666;
+}
+
+p {
+    font-size: 12px;
+    text-align: justify;
+}
+
+ul {
+    list-style-type: none;
+}
