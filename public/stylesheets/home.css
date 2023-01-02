@@ -73,14 +73,14 @@ ul {
 }
 
 
+
 @media (min-width:361px)/* Resolucion de Tablet */{
     
 
     .home__main__section__article{
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
-
-    .home__main__section__article__p--nombre{
+.nombreProducto{
         display: block;
     }
 

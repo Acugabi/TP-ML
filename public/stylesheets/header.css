@@ -24,9 +24,6 @@
     margin-right: 3%;
 }
 
-.form-control {
-    width: 100%;
-}
 
 .iconoBuscar {
     background-color: white;
@@ -55,7 +52,7 @@
     font-size: 20px;
 }
 
-main {
+.main {
     
 }
 
@@ -64,17 +61,22 @@ main {
     display: block;
 }
 
+@media(max-width:360){
+    .header_nav ul{
+        display: none;
+    }
 
-@media{
-    .menu{
+@media (min-width: 361px){
+    .header__nav--menu{
         display: block;
     }
     
-    .buttonMenu{
+    #buttonMenu{
         display: none;
     }
 
     .header__nav--menu{
         margin-bottom: 0px;
     }
+}
 }
