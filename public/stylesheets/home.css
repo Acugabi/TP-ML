@@ -1,13 +1,9 @@
 
 
-
-body{
-    background-color: #ebebeb;
-    font-family: 'Roboto', sans-serif;
-    display: flex;
-    flex-direction: column;
+.home__main{
+   width: 100%
+    margin: o auto;
 }
-
 
 
 
@@ -20,17 +16,19 @@ body{
     margin: 20px 0px;
 }
 
-.productos {
+.home__main__section--article{
+    margin: 20px;
     background-color: white;
-    padding: 15px;
-    margin: 20px 0px;
+    margin-bottom: 10px;
     overflow: auto;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    border-top: solid #ebebeb 1px;
 }
 
 .imagen {
+    
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
@@ -38,19 +36,24 @@ body{
     align-self: center;
 }
 
-
+.truck{
+    color: #39b54a;
+    border: 1px solid ;
+  border-radius: 50%;
+  padding: 10px;
+  width: fit-content
+}
 .precios {
     padding: 5px;
     font-size: 18px;
-    align-self: center;
 
 }
 
-.descuentos{
+.descuento{
     color: #39b54a;
     padding: 5px;
     font-size: 16px;
-    align-self: center;
+    
 }
 
 .nombreProducto {
@@ -67,4 +70,31 @@ p {
 
 ul {
     list-style-type: none;
+}
+
+
+@media (min-width:361px)/* Resolucion de Tablet */{
+    
+
+    .home__main__section__article{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    .home__main__section__article__p--nombre{
+        display: block;
+    }
+
+}
+@media (min-width:769px)/* Resolucion de Desktop */{
+    .header__nav__ul{
+        margin-bottom: 0px;
+    }
+    
+    .buttonMenu{
+        display: none;
+    }
+
+    .home__main__section__article__p--nombre{
+        display: block;
+    }
 }

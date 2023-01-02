@@ -1,4 +1,5 @@
 .header {
+    padding: 10px;
     background-color: #EAC926;
     display: flex;
     flex-wrap: wrap;
@@ -61,4 +62,19 @@ main {
 .homeBanner {
     width: 100%;
     display: block;
+}
+
+
+@media{
+    .menu{
+        display: block;
+    }
+    
+    .buttonMenu{
+        display: none;
+    }
+
+    .header__nav--menu{
+        margin-bottom: 0px;
+    }
 }

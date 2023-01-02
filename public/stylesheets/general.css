@@ -2,3 +2,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body{
+    background-color: lightgrey;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
