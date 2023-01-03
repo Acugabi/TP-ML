@@ -1,0 +1,82 @@
+.header {
+    padding: 10px;
+    background-color: #EAC926;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0; 
+    overflow: auto;
+}
+
+.logoMl {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 50vw;
+    justify-content: center;
+
+}
+
+.busqueda {
+    display: flex;
+    align-items: center;
+    width: 50vw;
+    left: 53%;
+    margin-right: 3%;
+}
+
+
+.iconoBuscar {
+    background-color: white;
+    border-radius: 4px;
+    border: solid thin;
+}
+
+#menu { 
+    padding: 10px;
+    margin: 20px 0px;
+    display: block;
+    position: relative;
+    margin-left: 42vw;
+    margin-right: 42vw;
+
+
+}
+
+
+#buttonMenu {
+    background-color: #0044AA;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.main {
+    
+}
+
+.homeBanner {
+    width: 100%;
+    display: block;
+}
+
+@media(max-width:360){
+    .header_nav ul{
+        display: none;
+    }
+
+@media (min-width: 361px){
+    .header__nav--menu{
+        display: block;
+    }
+    
+    #buttonMenu{
+        display: none;
+    }
+
+    .header__nav--menu{
+        margin-bottom: 0px;
+    }
+}
+}
