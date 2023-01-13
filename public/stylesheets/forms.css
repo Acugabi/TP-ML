@@ -1,0 +1,143 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+main{
+    margin: auto;
+}
+
+.contenedor-login{
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.15);
+    width: 260px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.contenedor-login h3{
+    color: black;
+    text-align: center;
+}
+
+.contenedor-registro{
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.15);
+    width: 260px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+.contenedor-registro h3{
+    color: black;
+    text-align: center;
+}
+
+form{
+    text-align: left;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: solid 1px #808080;
+    color: #747474;
+}
+
+#fotoUsuario{
+    border: none;
+}
+
+label{
+    font-weight: bold;
+}
+
+form input:first-child{
+    margin-top: 0;
+}
+
+form button {
+    width: 120px;
+    background-color: #0044AA;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+}
+
+form button a{
+    color: white;
+}
+
+form button a:visited{
+    color: white;
+}
+
+.btn-resetear{
+    background-color: #AA0044;
+    margin-top: 35px;
+}
+
+.contenedor-perfil input{
+    width: 10%;
+}
+
+.contenedor-perfil p{
+    display: inline-block;
+}
+
+.contenedor-categorias{
+    text-align: left;
+}
+
+.contenedor-categorias input{
+    width: 10%;
+}
+
+.contenedor-botones{
+    text-align: center;
+
+}
+
+@media(min-width:361px){
+    main{
+        text-align: center;
+    }
+
+    form{
+        display: inline-block;
+        text-align: left;
+    }
+
+    input{
+        display: block;
+    }
+
+    .barra-busqueda input{
+        width: 100%;
+    }
+
+    .contenedor-perfil input{
+        width: 10%;
+        margin: 0;
+        display: inline-block;
+    }
+    
+    .contenedor-perfil p{
+        display: inline-block;
+    }
+    
+    .contenedor-categorias{
+        text-align: left;
+    }
+    
+    .contenedor-categorias input{
+        width: 10%;
+        display: inline-block;
+    }
+}
